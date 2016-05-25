@@ -5,7 +5,7 @@ $(document).ready(function(e) {
 		
 		audio=window.plugins.LowLatencyAudio;
 		
-		audio.preloadFX('do','audio/Do.mp3',function(){},function(e){alert('Error'+e);});
+		audio.preloadFX('do','audio/DO.mp3',function(){},function(e){alert('Error'+e);});
 		audio.preloadFX('re','audio/RE.mp3',function(){},function(e){alert('Error'+e);});
 		audio.preloadFX('mi','audio/MI.mp3',function(){},function(e){alert('Error'+e);});
 		audio.preloadFX('fa','audio/FA.mp3',function(){},function(e){alert('Error'+e);});
